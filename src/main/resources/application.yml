@@ -1,7 +1,7 @@
 server:
   port: 443
   ssl:
-    key-store: classpath:keys/${BOXFUSE_ENV}.p12
-    key-store-type: PKCS12
+    key-store: classpath:keys/${BOXFUSE_ENV}.jks
+    key-store-type: JKS
     key-alias: boxfuse-https-demo
     key-store-password: ${X_KEYSTORE_PASSWORD}
